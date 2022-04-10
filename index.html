@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+        <html lang="en">
+            <head>
+                <title>Web Development EXP-6</title>
+                <meta charset="UTF-8">
+                <meta name="viewport" content="width=device-width, initial-scale=1.0">
+                <style>
+                    *{
+                        background-color: beige;
+                    }
+                    #dynamic_bg{
+                        border: 3px solid white;
+                        width: 150px;
+                        height: 150px;
+                    }
+
+                    h2{
+                        color:red;
+                    }
+                    h1{
+                        color:blue;
+                        text-decoration: underline;
+                    }
+                    #time{
+                        color: blue;
+                        font-family: sans-serif;
+                        font-size: 90px;
+                    }
+                </style>
+            </head>
+            <body>
+            <h1>Prblm-1</h1>
+            <h2>Digital Clock</h2>
+            <span id="time"></span>
+            <!--Second Prblm-->
+            <h1>Prblm-2</h1>
+            <h2>Dynamic Background</h2>
+            <div id="dynamic_bg"></div>
+                <!--Third Problem-->
+                <h1>Prblm-3</h1>
+                <h2>Change font size</h2>
+                <div id="id1">
+                    <p id="mouse" onmouseover="incSize()" onmouseout="decSize()">
+                        Mouse curse over me to zoom in here
+                    </p>
+                </div>
+                <!--Fourth Problem-->
+                <h1>Prblm-4</h1>
+                <h2>Move the car</h2>
+                <img id="image" src ="car.png" width="150" height="150" alt="An image was present here"><br>
+                <button onclick="moveRight()">START</button>&emsp;
+                <button onclick="stop()">STOP</button>
+                <!--Fifth problem-->
+                <h1>Prblm-5</h1>
+                <h2>Student Description</h2>
+                <button onclick="describe()">Describe students</button><br>
+                <span id="empty1"></span>
+                <span id="empty2"></span>
+                <script src="next.js">
+                    </script>
+            </body>
+        </html>
